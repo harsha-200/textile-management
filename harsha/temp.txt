@@ -1,0 +1,4 @@
+It is mainly based on distance vector routing which has some considerations like:
+  1. In an autonomous system there are mainly routers and networks
+  2. The destination in a routing table is a network ,which means the first column defines a network address
+ 3. The metric used by RIP is very simple where the distance defined as the number of links that have to reach the destination. For this reason ,the metric in RIP is called a hop count
